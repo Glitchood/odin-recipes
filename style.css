@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Default font for <p> and <li> */
+* {
+    font-family: "Courier New", "monospace";
+    color: #23272A;
+}
+p {
+    text-indent: 20px;
+}
+/* Default font for headers/titles*/
+h1,
+h2,
+h3 {
+    font-family: "Georgia", "serif";
+}
+/* Formatting for lists */
+li {
+    padding: 5px;
+}
+ol > li::marker {
+    font-weight: bold;
+}
+ul#recipe-index > *{
+    list-style-type: circle;
+    background-color: #5865f265;
+}
+/* Formatting for links & emojis */
+a {
+    border-radius: 2px;
+    text-decoration:none;
+    font-size:16px;
+    padding: 3px;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+a.emoji:hover {
+    background: #acacafc0;
+    text-decoration: none;
+}
+.emoji {  
+    padding: 5px;
+    font-size: 2em;
+}
+/* Title formatting and unique colors for each page */
+.title {
+    text-decoration: underline;
+    font-size: 40px;
+    padding: 10px;
+}
+.title#homepage{
+    color: rgb(83, 49, 235);
+    background-color: #23272A;
+}
+.title#omelet{
+    color: rgb(24, 139, 14);
+    background-color: #f8df53;
+}
+.title#cheese{
+    color: rgb(235, 217, 49);
+    background-color: #ad6b1f;
+}
+/* Heading style and unique colors */
+.heading {
+    font-style: italic;
+}
+.heading.description {
+    color: #D70040;
+}
+.heading.ingredients {
+    color: #228B22;
+}
+.heading.steps {
+    color: #0047AB;
+}
+/* Unique colors for each section */
+.block {
+    margin-left: 10px;
+}
+.block.description p {
+    background-color: #d7004040
+}
+.block.ingredients > ul {
+    background: #228B2240
+}
+.block.steps > ol {
+    background: #0047AB40
+}
+/* Cool image formatting */
+.image{
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    width: 400px;
+    box-shadow: 12px 12px rgba(68, 68, 82, 0.2);
+}
+/* Footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #acacafc0;
+    text-align: center;
+}
