@@ -1,3 +1,3 @@
 # odin-recipes
 
-> now css-ified!
+> now CSS-ified!
